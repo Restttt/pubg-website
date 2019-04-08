@@ -1,0 +1,22 @@
+@import "https://fonts.googleapis.com/css?family=Oswald:500,600,700|Teko";
+
+.search-parent-box {
+    width: 85%;
+    margin: 3vh auto;
+}
+
+.search-players-parent-box {
+    width: 90%;
+    height: 60vh;
+    margin: 4vh auto;
+
+    background: #161616d0;
+    border-radius: 1em;
+}
+
+.search-players-input-fields {
+    width: 50%;
+    margin: 2vh auto;
+    display: flex;
+    justify-content: center;
+}

@@ -1,0 +1,62 @@
+@import "https://fonts.googleapis.com/css?family=Oswald:500,600,700|Teko";
+
+.login-page-box {
+    margin: 30vh auto;
+    height: 30vh;
+    width: 30vw;
+
+    background: #161616d0;
+    border-radius: 1em;
+
+    font-family: "Teko";
+    color: #ffffff;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    flex-direction: column;
+}
+
+.login-page-box:hover {
+    background: #161616e5;
+}
+
+
+.login-page-box button {
+    width: 4vw;
+    margin: 1.2em;
+}
+
+.login-page-box input {
+    border: 2px solid #626262;
+}
+
+.register-page-box {
+    margin: 20vh auto;
+    height: 50vh;
+    width: 30vw;
+
+    background: #161616d0;
+    border-radius: 1em;
+
+    font-family: "Teko";
+    color: #ffffff;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    flex-direction: column;
+}
+
+.register-title {
+    margin-bottom: .2em;
+    font-size: 3em;
+    text-decoration: underline;
+}
+
+.register-page-box button {
+    width: 8vw;
+    margin: 1.2em;
+}

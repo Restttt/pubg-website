@@ -1,0 +1,65 @@
+@import "https://fonts.googleapis.com/css?family=Oswald:500,600,700|Teko";
+
+header {
+    color: #ffffff;
+    width: 100%;
+    display: flex;
+    justify-content: column;
+    align-content: center;
+    flex-wrap: wrap;
+    font-family: "Teko", sans-serif;
+}
+
+.header-top-bar {
+    background: #161616;
+    height: 5vh;
+    width: 100%;
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.header-navbar {
+    width: 40vw;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.header-selected {
+    color: #f2a900;
+}
+
+.header-empty-space {
+    width: 35vw;
+}
+
+.header-search {
+    width: 20vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+.header-search h3 {
+    margin-right: 15px;
+}
+
+.header-login-language {
+    width: 20vw;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+}
+
+.link:visited, .link:link {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+
+.link:hover, .link:active {
+    color: #f2a900;
+    text-decoration: none;
+}
